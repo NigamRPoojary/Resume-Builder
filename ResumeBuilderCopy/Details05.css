@@ -1,0 +1,285 @@
+body{
+	background-image: linear-gradient(to right top, #a4f8d9, #94f6db, #83f4df, #6ff2e3, #57f0e8, #47f1e7, #31f2e7, #00f3e6, #00f7db, #00face, #00fdbe, #1cffac);
+	display: flex;
+	justify-content: center;
+}
+
+#mainDiv{
+	border-style: dotted;
+	box-shadow: 20px 20px 50px 15px grey;
+	/* margin-left: 300px; */
+	margin-top: 45px;
+	width: 900px;
+}
+
+#mainForm{
+	padding: 50px;
+	background-color: whitesmoke;
+}
+
+div{
+	margin: 20px;
+}
+
+label{
+	width: 130px;
+	display: inline-block;
+	text-align: right;
+	color: #757575;
+	font-weight: bolder;
+}
+input{
+	height: 25px;
+}
+
+fieldset{
+	border-radius: 10px;
+}
+legend{
+	font-weight: 900;
+	font-size: 20px;
+}
+select{
+	width: 165px;
+	height: 25px;
+}
+
+input[type="date"],input[type="month"]{
+	width: 165px;
+}
+
+.input{
+	outline: none;
+  border: 1px solid #d5dbd9;
+}
+
+.input:focus{
+	border: 2px solid #17F869 ;
+}
+
+#city{
+	font-size: 14px;
+	margin-top: 0px;
+	margin-left: 500px;
+}
+
+#PersonalInfo_subline{
+	margin-top: 0px;
+	margin-left: 450px;
+}
+
+#skills,#tech{
+	width: 165px;
+	height: 25px;
+}
+
+#isubhead{
+	margin-top: 0px;
+	margin-left: 150px;
+}
+
+#asubhead{
+	margin-top: 0px;
+	margin-left: 470px;
+}
+
+#summary{
+	width: 500px;
+	height: 60px;
+}
+
+#subline{
+	margin-top: 0px;
+	margin-left: 470px;
+}
+
+#addcrs{
+	margin-left: 250px;
+}
+
+button{
+	width: 60px;
+	height: 25px;
+}
+
+input[type="checkbox"]{
+	margin-left: 130px;
+}
+
+input[type="button"]{
+	width: 60px;
+	height: 25px;
+	background-color:#82F3AD;
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+input[type="button"]:hover{
+	background-color: #B8F7CF;
+}
+
+#projectButton,#internshipButton,#achievementsButton{
+	margin-left: 570px;
+}
+
+#pdescription{
+	width: 500px;
+	height: 80px;
+}
+
+select[name="EmpType"]{
+	width: 165px;
+}
+
+#title{
+	width: 165px;
+	height: 25px;
+}
+
+#activities{
+	width: 500px;
+	height: 50px;
+}
+
+#save_next{
+	margin-left: 680px;
+	width: 100px;
+	height: 40px;
+	background-color:#82F3AD;
+	border-radius: 20px;
+	font-weight: bold;
+}
+#save_next:hover{
+	background-color: #B8F7CF;
+}
+
+#EdInfoDetails{
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+#EdInfoDetails b,h5{
+	padding: 5px;
+}
+
+#EdInfoDetails b{
+	margin-top: 15px;
+}
+#EdInfoDetails h5{
+	margin-top: 10px;
+}
+
+.degree{
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.college{
+	margin-left: 40px;
+}
+
+.Eduyear{
+	margin-top: 2px;
+	float: right;
+}
+
+.Eduaggregate{
+	margin-top: 2px;
+	float: right;
+}
+
+#TechSkillDetails{
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+#pyear{
+	margin-top: 2px;
+	/*margin-left: 250px;*/
+	float: right;
+}
+
+#college{
+	float: left;
+}
+
+#ProjectsDetails{
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+#ProjectsDetails #description{
+	text-align: justify;
+}
+
+.projcon p{
+	margin-left: 40px;
+	margin-top: 0px;
+}
+
+.projname{
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+.projdate{
+	float: right;
+}
+
+#InternshipsDetails{
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.intercon p{
+	margin-left: 40px;
+	margin-top: 0px;
+}
+
+.intername{
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+.interdate{
+	float: right;
+}
+
+
+#coursesWorkshopsDetails{
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+#achievementsDetails{
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.x{
+	margin-left: 5px;
+	width: 25px;
+	text-align: center;
+}
+
+.skillList{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	display: inline-block;
+}
+
+.actcon .x , .crscon .x{
+	float: left;
+}
+
+.achieve , .course{
+	margin-left: 50px;
+}

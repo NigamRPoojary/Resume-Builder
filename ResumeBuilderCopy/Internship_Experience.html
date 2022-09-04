@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Internship/Experience</title>
+	<link rel="stylesheet" type="text/css" href="Details01.css">
+</head>
+<body>
+	<div id="mainDiv">
+			<form id="mainForm">
+				<div id="Internships">
+					<fieldset>
+						<legend>Internships/Experience</legend>
+						<label>Job Role :</label>
+						<input type="text" name="role" class="input" id="inttitle" placeholder="Ex: Software Developer"><br><br>
+						
+						<label>Employment Type:</label>
+						<select name="EmpType" class="input" id="inttype" required>
+				              <option value="None">Select</option>
+				              <option value="Full-Time">Full-Time</option>
+				              <option value="Part-Time">Part-Time</option>
+				              <option value="Self-Employed">Self-Employed</option>
+				              <option value="Freelance">Freelance</option>
+				              <option value="Internship">Internship</option>
+				              <option value="Trainee">Trainee</option>
+				        </select><br><br>
+				        
+						<label>Organization :</label>
+						<textarea name="organization" class="input" id="intorg"></textarea><br><br>
+						
+						<input type="checkbox" name="present" class="input" id="intpresent">
+						<span >I am currenlty working on this role</span>
+						<br><br>
+
+						<label>Start Date</label>
+						<input type="month" name="startDate" id="intsdate"> <br><br>
+						
+						<label>End Date</label>
+						<input type="month" name="EndDate" class="input"  id="intedate"><br><br>
+
+						<label>Description:</label>
+						<textarea name="pdescription" id="intdesc" class="input"></textarea>
+						<p id="isubhead">Maximum Upto 400 words</p>
+						
+						<input type="button" name="button" value="Add" id="internshipButton">
+
+						<div id="InternshipsDetails">
+							<!-- user specific data -->
+						</div>
+					</fieldset>
+				</div>
+			<button id="save_next">Save & Next</button>
+		</form>
+	</div>
+</body>
+<script src="internship.js"></script>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="Register.css">
+</head>
+<body>
+
+<div class="mainDiv">
+	<div class="formDiv">
+		<div class="placeholder_img">
+			<img src="Images/Register.png" height="500px" width="500px">
+		</div>
+		<form id="frm" action="Register.php" method="POST">
+			<h2 class="text-center"><strong>Create</strong> an account.</h2><br><br>
+			<label>First Name :</label>
+			<input type="text" name="fname" class="input" required><br><br>
+			<label>Last Name :</label>
+			<input type="text" name="lname" class="input"  required><br><br>
+			<label>Email ID:</label>
+			<input type="email" name="email" class="input" required><br><br>
+			<label>Password :</label>
+			<input type="Password" name="password" class="input" id="pass" required><br><br>
+			<label>Confirm Password :</label>
+			<input type="Password" name="confirm_password" class="input" id="cpass" required><br><br>
+			<input class="form-check-input" type="checkbox" class="input">I agree to the license terms.<br><br>
+
+			<input type="submit" name="submit" value="Sign Up" id="button"><br><br>
+		
+			<a href="Login.html" class="already">You already have an account? Login here.</a>
+		</form>
+	</div>
+</div>
+</body>
+<script>
+	document.getElementById("frm").addEventListener('submit' , function(e){
+		var pass = document.getElementById("pass");
+		var cpass = document.getElementById("cpass");
+		if(pass.value!=cpass.value){
+			alert("Passwords do not match!!");
+			e.preventDefault();
+		}
+	});
+</script>
+</html>
+
+
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Personal Information</title>
+	<link rel="stylesheet" type="text/css" href="Details01.css">
+</head>
+<body>
+	<div id="mainDiv">
+			<form id="mainForm" action="personal.php" method="post" enctype="multipart/form-data">
+				<div id="PersonalInfo">
+					<fieldset>
+						<legend>Personal Information</legend>
+						<label>First Name :</label>
+						<input type="text" name="fname" class="input" id="fname" required>&nbsp; &nbsp; &nbsp; &nbsp;
+						
+						<label>Last Name :</label>
+						<input type="text" name="lname" class="input" id="lname" required><br><br>
+						
+						<label>Date of Birth :</label>
+						<input type="date" name="dob" class="input" id="dob" required>&nbsp; &nbsp; &nbsp; &nbsp;
+						
+						<label>Email:</label>
+						<input type="email" name="email" class="input" id="email" required><br><br>
+						
+						<label>Phone Number :</label>
+						<input type="Number" name="phno" class="input" id="phno" required>&nbsp; &nbsp; &nbsp; &nbsp;
+						
+						<label>Upload Photo :</label>
+						<input type="file" name="picture"  id="pic" required><br><br>
+
+						<label>House No/Name:</label>
+						<input type="text" name="houseno" class="input" id="house" required>&nbsp; &nbsp; &nbsp; &nbsp;
+						
+						<label>Street :</label>
+						<input type="text" name="street" class="input" id="strt"><br><br>
+
+						<label>Region:</label>
+						<input type="text" name="region" class="input" id="regn">&nbsp; &nbsp; &nbsp; &nbsp;
+						
+						<label>City :</label>
+						<input type="text" name="city" class="input" id="city" required>
+						<span  id="scity" >For Ex:Mangalore-575006</span><br><br>
+
+						<label>District:</label>
+						<input type="text" name="district" class="input" id="dest" required>&nbsp; &nbsp; &nbsp; &nbsp;
+						
+						<label>State :</label>
+						<input type="text" name="state" class="input" id="state" required><br><br>
+
+						<label>LinkedIn :</label>
+						<input type="text" name="linkedin" class="input" id="lnkdn">&nbsp; &nbsp; &nbsp; &nbsp;
+						
+						<label>GitHub :</label>
+						<input type="text" name="github" class="input" id="gthb"><br><br>
+						
+						<label>Summary:</label>
+						<textarea name="summary" id="summary" class="input" id="smmry" required></textarea>
+						<p id="PersonalInfo_subline">Maximum Upto 200 words</p>
+					</fieldset>
+				</div>
+
+				<input type="submit" value="Save & Next" id="save_next">
+			</form>
+		</div>
+</body>
+<script src="personal.js"></script>
+</html>

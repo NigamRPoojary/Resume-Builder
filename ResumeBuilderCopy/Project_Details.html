@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Project Details</title>
+	<link rel="stylesheet" type="text/css" href="Details01.css">
+</head>
+<body>
+	<div id="mainDiv">
+			<form id="mainForm">
+				<div id="Projects">
+					<fieldset>
+						<legend>Projects</legend>
+						<label>Project Name :</label>
+						<input type="text" name="pname" class="input"  id="projectname"><br><br>
+						
+						<label>Associated With :</label>
+						<textarea name="assWith" id="assoc" class="input"></textarea><br><br>
+
+						<input type="checkbox" name="present" class="input" id="present">
+						<span>I am currenlty working on this project</span>
+						<br><br>
+
+						<label>Start Date :</label>
+						<input type="month" name="startDate"  id="sdate"> <br><br>
+						
+						<label>End Date :</label>
+						<input type="month" name="EndDate" class="input"  id="edate"><br><br>
+						
+						<label>Project Description:</label>
+						<textarea name="pdescription" id="desc" class="input"></textarea>
+						<p id="subline">Maximum Upto 400 words</p>
+						
+						<input type="button" name="button" value="Add" id="projectButton">
+
+						<div id="ProjectsDetails">
+							<!-- User specific data -->
+						</div>
+					</fieldset>
+				</div>
+				<button id="save_next">Save & Next</button>
+			</form>
+		</div>
+	</body>
+	<script src="project.js"></script>
+</html>

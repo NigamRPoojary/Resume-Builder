@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Courses & Activities</title>
+	<link rel="stylesheet" type="text/css" href="Details01.css">
+</head>
+<body>
+	<div id="mainDiv">
+			<form id="mainForm">
+				<div id="coursesWorkshops">
+					<fieldset>
+						<legend>Courses & Workshops</legend>
+						<label>Title:</label>
+						<input type="text" name="title" class="input"  id="coursewrkshp"> <br><br>
+						
+						<label>Organization :</label>
+						<textarea name="organization" class="input" id="organization"></textarea><br><br>
+
+						<label>Completed on:</label>
+						<input type="month" name="EndDate"  id="crsedate"><br><br>
+						
+						<input type="button" name="button" value="Add"  id="addcrs">
+						
+						<div id="coursesWorkshopsDetails">
+							<!-- user spacific data -->
+						</div>
+					</fieldset>
+				</div>
+
+				<br>
+				<br>
+
+				<div id="achievements">
+					<fieldset>
+						<legend>Extra-Curricular Activities</legend>
+						<label>Details :</label>
+						<textarea name="achievements" id="activities" class="input"></textarea>
+						<p id="asubhead">Maximum Upto 150 words</p>
+						
+						<input type="button" name="button" value="Add" id="achievementsButton">
+						
+						<div id="achievementsDetails">
+							<!-- user spacific data -->
+						</div>
+					</fieldset>
+				</div>
+			<button id="save_next">Save & Next</button>
+		</form>
+	</div>
+</body>
+<script src="courses_activity.js"></script>
+</html>

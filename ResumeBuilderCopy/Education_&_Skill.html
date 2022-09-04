@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Education & Skills</title>
+	<link rel="stylesheet" type="text/css" href="Details01.css">
+</head>
+<body>
+	<div id="mainDiv">
+			<form id="mainForm">
+				<div id="EdInfo">
+					<fieldset>
+						<legend>Educational details</legend>
+						<label>Highest Degree :</label>
+						<select name="degree" class="input" id="deg" required>
+				              <option value="None">Select</option>
+				              <option value="Bachelors of Engineering">BE</option>
+				              <option value="Senior Secondary">PUC</option>
+				              <option value="Secondary School">SSLC</option>
+				        </select>&nbsp; &nbsp; &nbsp; &nbsp;
+				        
+						<label>Aggregate :</label>
+						<input type="Number" name="aggregate" class="input" id="score"><br><br>
+						
+						<label>Start Date</label>
+						<input type="month" name="startDate" id="startdate"> &nbsp; &nbsp; &nbsp; &nbsp;
+						
+						<label>End Date</label>
+						<input type="month" name="EndDate" id="enddate"><br><br>
+						
+						<label>Institution:</label>
+						<textarea name="institution" class="input"  id="inst"></textarea>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+						
+						<input type="button" name="button" value="Add" id="addedu">
+
+						<div id="EdInfoDetails">
+							<!--User specific data-->
+						</div>
+						
+					</fieldset>
+				</div>
+				<br>
+				<br>
+				<br>
+
+				<div id="TechSkill">
+					<fieldset>
+						<legend>Technical Skills</legend>
+						<label>Add your skills</label>
+						<input type="text" name="skills" id="skills" class="input">&nbsp; &nbsp;&nbsp; &nbsp;
+						
+						<input type="button" name="button" id="addskill" value="Add">
+						
+						<div id="TechSkillDetails">
+							<!--User specific data-->
+						</div>
+					</fieldset>
+				</div>
+
+				<button id="save_next">Save & Next</button>
+			</form>
+		</div>
+	</body>
+	<script src="education_skill.js"></script>
+</html>
